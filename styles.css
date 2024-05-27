@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+:root {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#restart {
+  border: 1px solid black;
+  padding: 2px;
+  font-size: 1.52rem;
+  justify-self:  center;
+  border: none;
+}
+
+#restart:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 12px 1px rgb(255, 254, 254);
+}
+
+p {
+  font-size: 2.6rem;
+  color:white;
+  text-shadow: 1px 2px 12px rgb(158, 157, 157);
+}
+
+body {
+  padding: 12px;
+    background-color: #000;
+    display: grid;
+    gap: 24px;
+    justify-content: center;
+
+}
+
+#gameBoard {
+    align-self: center;
+    justify-self: center;
+    box-shadow: 1px 1px 12px 8px rgb(163, 161, 161);
+    width: 450px;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    justify-content: center;
+    height: 450px;
+    background-color: white;
+}
+
+#boxContainer {
+  width: 425px;
+  height: 425px;
+}
+
+header {
+  color: white;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+#resultContainer p{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#container {
+  display: grid;
+  grid-template-rows: 0.1fr 0.4fr 0.01fr 0.01fr;
+  gap: 24px;
+  align-items: center;
+  justify-items: center;
+}
+
+#restart {
+  padding: 12px;
+  font-size: 1.3rem;
+  border-radius: 15px;
+}
